@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato, sans serif";
+}
+
+body{
+    background-color: #090e22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    min-height: 100vh;
+
+}
+
+#container{
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #1d1e33;
+    padding: 2rem;
+}
+
+
+.container-calculo h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.input label{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color: #ccc;
+}
+
+.input input{
+    padding: 1rem 0.5rem;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+button{
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    background-color: #f44235;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    flex: 1;
+}
+
+#resultado{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#resultado-imc{
+    font-size: 2.4rem;
+    margin-bottom: .6rem;
+}
+
+#situacao{
+    font-size: 1.4rem;
+    color: #ccc;
+}
+
+#resultado h3{
+    margin-top: 1rem;
+}
+
+#tabela{
+    margin: 1.5rem 0;
+    font-size: .8rem;
+}
+
+.imc{
+    font-weight: bold;
+    color: #ccc;
+}
+
+.imc, .imc-table{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #4444;
+}
+
+.imc h4, .imc-table p{
+    flex: 1;
+}
+
+
+.inativo{
+    display: none !important;
+}
